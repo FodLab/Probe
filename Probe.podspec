@@ -9,5 +9,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :http => "https://github.com/FodLab/Probe/raw/master/Probe/#{spec.version}.zip" }
   spec.vendored_frameworks  = "#{spec.version}/Probe.framework"
   spec.frameworks       = 'SystemConfiguration'
-  spec.dependency "TaurusXAds"
+  spec.dependency "TaurusXAds", "~> 1.9.8"
 end

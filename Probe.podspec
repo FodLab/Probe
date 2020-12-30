@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "Probe"
-  spec.version      = "2.0.1"
+  spec.version      = "2.0.2"
   spec.summary      = "Probe SDK by fodlab"
   spec.homepage     = "https://github.com/FodLab/Probe"
   spec.license      = { :type => 'MIT' }
